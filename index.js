@@ -9,4 +9,3 @@ var getContact = wx.getContact;
 var receiveAndSend =wx.receiveAndSend;
 
 getUuid.then(checkState).then(login).then(init).then(getContact).then(receiveAndSend);
-
