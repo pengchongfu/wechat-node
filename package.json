@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/steinsphang/wechat-node#readme",
   "dependencies": {
+    "chalk": "^1.1.1",
     "qrcode-terminal": "^0.10.0",
     "request": "^2.69.0"
   }

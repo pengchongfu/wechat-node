@@ -6,7 +6,7 @@ var checkState = wx.checkState;
 var login = wx.login;
 var init = wx.init;
 var getContact = wx.getContact;
-var sendMessage = wx.sendMessage;
+var receiveAndSend =wx.receiveAndSend;
 
-getUuid.then(checkState).then(login).then(init).then(getContact).then(sendMessage);
+getUuid.then(checkState).then(login).then(init).then(getContact).then(receiveAndSend);
 
