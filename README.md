@@ -5,7 +5,9 @@
 注意：现在只支持普通的文字消息，以及不能接收群消息
 
 使用说明：
+
 1. `git clone https://github.com/steinsphang/wechat-node.git`
 2. `cd wechat-node`
 3. `npm install`
 4. `node index.js`
+5. 在cli中输入`!clear`清除屏幕，`!exit`退出程序，`!user`查看当前聊天用户，`!用户名`切换当前聊天用户
